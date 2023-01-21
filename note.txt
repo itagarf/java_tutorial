@@ -1,0 +1,26 @@
+TUTORIAL: https://www.youtube.com/watch?v=BGTx91t8q50
+
+//Using vscode
+
+To run a java file, run "javac file_name.java" first to compile the code, then run "java class_name"
+
+Two types of data types:
+* primitive
+*
+
+primitive: integer, float, boolean, character
+
+integer: byte, short, int, long
+float: double, float
+char or character
+boolean: true, false
+
+int: 4 bytes
+long: 8 bytes (e.g long num = 4l;)
+short: 2 bytes
+byte: 1 byte (-2^7 to 2^7-1) or (-128 to 127)
+
+float: 4 bytes (e.g float num = 4.8f;)
+double (default): 8 bytes (e.g double num = 4.8;)
+
+char: 2 bytes
