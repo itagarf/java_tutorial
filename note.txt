@@ -3,6 +3,7 @@ TUTORIAL: https://www.youtube.com/watch?v=BGTx91t8q50
 //Using vscode
 
 To run a java file, run "javac file_name.java" first to compile the code, then run "java class_name"
+### or java file_name.java (not recommended though!)
 
 Two types of data types:
 * primitive
@@ -24,3 +25,39 @@ float: 4 bytes (e.g float num = 4.8f;)
 double (default): 8 bytes (e.g double num = 4.8;)
 
 char: 2 bytes
+
+TYPE CONVERSION AND CASTING
+conversion: when you implicitly convert the value of a type into the format of another type. 
+e.g. storing a byte value into an integer variable so the byte value becomes an integer.
+
+casting: when you explicitly convert the value of a type into the format of another type. 
+e.g. converting a type int into a type byte
+
+byte b = 127;
+int i = 50;
+
+e.g. of converting a type:
+i = b;
+
+e.g. of casting a type:
+b = (byte)i;
+
+
+When trying to convert an integer value (especially a large integer value) to a byte, 
+it will convert it to a modulus (divide the number by a range e.g.
+converting int i = 257 to byte which can contain 127 will result in: 257% 256 which is 1
+Therefore, byte b = (byte)i is equal to 1)
+
+i.e int i = 257;
+byte b = (byte)i; // result is 1 because modulus 257%256 = 1 or 257 - 256 = 1
+
+int i = 128;
+byte b = (byte)i; // result is -128 because 128 - 256 = -128
+
+int i = 129;
+byte b = (byte)i; // result is -127 because 129 - 256 = -127
+
+TYPE REMOTION
+When performing operations on data, the resulting value may go out of range for a type.
+e.g. The result of multiplying byte b 40 and byte y 40 is 1600.
+It is possible to store the result into an integer variable.
