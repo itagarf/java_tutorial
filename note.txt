@@ -61,3 +61,9 @@ TYPE REMOTION
 When performing operations on data, the resulting value may go out of range for a type.
 e.g. The result of multiplying byte b 40 and byte y 40 is 1600.
 It is possible to store the result into an integer variable.
+
+
+LOGICAL OPERATORS
+&& - AND
+|| - OR
+! - NOT
