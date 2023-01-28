@@ -67,3 +67,19 @@ LOGICAL OPERATORS
 && - AND
 || - OR
 ! - NOT
+
+
+CONDITIONAL STATEMENT
+If you have only one statement under the "if" statement, then you don't need a curly bracket.
+If you have more than one statement under the "if" statement (especially in an if-else block),
+then you need to put the statements in a curly bracket.
+e.g. 
+if (a == b){
+    System.out.println("Yeah Yeah");
+    System.out.println("Yeah Yeah again");
+}
+else
+System.out.println("Blah Blah Blah")
+
+#See else has no curly bracket but if has a curly bracket.
+
