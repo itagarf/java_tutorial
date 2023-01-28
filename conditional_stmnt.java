@@ -5,10 +5,10 @@ class conditional_statement{
 
         if (a < 10 && a < 2)
         System.out.println("Hello First!");
-        System.out.println("No Hello First!"); //becuase the result is false, it skips the first "Hello" and prints "No Hello"
-        // But is the result is true, it prints both "Hello" and "No Hello". This isn't the best thing to do.
+        System.out.println("No Hello First!"); //because the result is false, it skips the first "Hello" and prints "No Hello"
+        // But if the result is true, it prints both "Hello" and "No Hello". This isn't the best thing to do.
 
-        //instead we use "if" and "else"
+        //instead we can use "if" and "else"
 
         if (a < 10 && a > 2)
         System.out.println("Hello Second!");
