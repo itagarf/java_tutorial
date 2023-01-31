@@ -51,5 +51,23 @@ class conditional_statement{
         System.out.println("j is greater than i and k");
         else
         System.out.println("K is greater than i and j");
+
+
+
+        ////////////////////////////////////////////////////////////////
+
+        int b = 6;
+        String output = ""; 
+        if (b%2 == 0)
+        output = "even";
+        else 
+        output = "odd";
+        System.out.println(output);
+
+        //This can also be done using a tenary operator - ?:
+
+        String output1 = "";
+        output1 = b%2 == 0 ? "even" : "odd";
+        System.out.println(output1);
     }
 }
