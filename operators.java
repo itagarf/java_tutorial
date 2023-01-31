@@ -1,4 +1,3 @@
-import java.sql.ResultSet;
 
 class operators{
     public static void main(String args[]){
