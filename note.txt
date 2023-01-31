@@ -83,3 +83,18 @@ System.out.println("Blah Blah Blah")
 
 #See else has no curly bracket but if has a curly bracket.
 
+SWITCH
+Instead of using if, else if, else if, else if, else; we can use "switch" statement.
+e.g if grade >= 70
+System.out.println("A")
+else if grade >= 60
+System.out.println("B")
+blah blah
+else
+System.out.println("F")
+
+we can use "switch" statement here by using "cases" Instead of "if" and "else if"
+e.g switch(grade){
+    case 1:
+    System.out.println("blah blah")
+}
