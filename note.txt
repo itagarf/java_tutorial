@@ -103,3 +103,5 @@ e.g switch(grade){
 do-while loop is used to get the output at least once even if the condition is false.
 
 In while loop, the expression, condition, and increment are usually written in different lines. In for loop, the expression, condition, and increment can all be written in the same line.
+
+In terms of frequency of use, "FOR-loop" is better. In terms of database, files, network, "WHILE-loop" is better.
