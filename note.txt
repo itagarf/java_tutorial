@@ -111,3 +111,6 @@ OOP - Object-Oriented Programming
 Object - Properties and Behaviors
 Properties - What you know
 Behaviors - What you do
+
+
+METHOD OVERLOADING - This is giving different methods in a class the same name with different parameters
