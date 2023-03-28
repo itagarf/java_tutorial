@@ -35,5 +35,16 @@ public class array {
             System.out.println();
         }
 
+        System.out.println("Mult-dimensional array");
+        
+        //Enhanced For-loop
+
+        for(int n[] : mult){
+            for(int m: n){
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
