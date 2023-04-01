@@ -46,5 +46,34 @@ public class array {
             System.out.println();
         }
 
+
+
+
+        /* The internal array can have different size of elements. This is called a JAGGED array.
+         * Usually, you specify the size of the array. But in a Jagged array, you do not do that.
+         */
+
+         /* Here's an example of a jagged three-dimensional array */
+
+         int nums2[][] = new int[3][];
+
+         nums2[0] = new int[3];
+         nums2[1] = new int[4];
+         nums2[2] = new int[2];
+
+         for(int i=0; i<nums2.length; i++) {
+            for(int j=0; j<nums2[i].length; j++) {
+                nums2[i][j] = (int)(Math.random() * 100);
+            }
+         }
+
+
+        for(int n[] : nums2){
+            for(int m: n){
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
