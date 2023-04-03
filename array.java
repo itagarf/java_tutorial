@@ -75,5 +75,13 @@ public class array {
             System.out.println();
         }
 
+
+
+
+        /* There are drawbacks in Arrays 
+         * Once you specify the size of an array, you cannot increase the array. It is fixed.
+         * That's where COLLECTIONS come in.
+        */
+
     }
 }
