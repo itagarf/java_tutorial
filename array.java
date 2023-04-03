@@ -83,5 +83,12 @@ public class array {
          * That's where COLLECTIONS come in.
         */
 
+
+
+        //For each (or enhanced for loop)
+        for (int n : nums1){
+            System.out.println(n);
+        }
+
     }
 }

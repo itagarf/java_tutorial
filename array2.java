@@ -35,5 +35,10 @@ public class array2 {
         for (int i=0; i<students.length; i++){
             System.out.println(students[i].name + ": " + students[i].score);
         }
+
+        //For each (or enhanced for loop)
+        for (Student student : students){
+            System.out.println(student.name + " : " + student.score);
+        }
     }
 }
