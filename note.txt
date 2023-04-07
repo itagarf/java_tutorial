@@ -114,3 +114,14 @@ Behaviors - What you do
 
 
 METHOD OVERLOADING - This is giving different methods in a class the same name with different parameters
+
+
+Mutuable String - This is a string that can be changed (change)
+Immutable String - This is a string that cannot be changed (unchange)
+
+Java strings are immutable.
+
+To implement immutable strings, the following can be used:
+* String Buffer
+* String Builder
+The difference between String Buffer and String Builder is that the former is THREAD SAFE while the later is NOT.
