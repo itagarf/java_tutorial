@@ -147,3 +147,10 @@ Employee.company = "Genesys";
 It does to belong to "emp1" like in e.g1, but it belongs to the class itself.
 
 It helps to save memory
+
+
+
+class Note
+public static void main() - The "static" is used here because we cannot call "main" without the object of the class, "Note". 
+"main" is the starting point of execution and we can go into a road block because if the execution is not started, we cannot create an object of "Note".
+Therefore, "static" is added to ensure that when calling "main" method, we don't need any objects of "Note".
