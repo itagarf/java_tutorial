@@ -125,3 +125,25 @@ To implement immutable strings, the following can be used:
 * String Buffer
 * String Builder
 The difference between String Buffer and String Builder is that the former is THREAD SAFE while the later is NOT.
+
+
+
+STATIC KEYWORD: Making something as a Class member not as an Object member. e.g a static string variable belongs to the class it is defined in, not the object.
+e.g1 
+class Employee{
+String company;
+}
+When referring to the above string, we use:
+Employee emp1 = new Employee();
+emp1.company = "Genesys";
+
+but with static variable,
+e.g2
+class Employee{
+static String company;
+}
+Employee.company = "Genesys";
+
+It does to belong to "emp1" like in e.g1, but it belongs to the class itself.
+
+It helps to save memory
