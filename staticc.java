@@ -40,6 +40,11 @@ public class staticc {
         emp1.show();
         emp2.show();
 
+        /* Everytime we call the constructor, the static variable initialises. Since we don't want to do that, we can create a static block so that it can be called only once instead of everytime.
+
+        This is shown in staticcc.java
+         */
+
     }
 
 }
