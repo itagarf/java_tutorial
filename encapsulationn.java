@@ -6,19 +6,32 @@ class Person{
     private int age;
 
     //The private data can be accessed with the help of methods
-    public void setName(String n){
+    public void setName(String n){ //setter
         name = n;
+        //name is an instance variable, n is a local variable
     }
 
-    public String getName(){
+    public String getName(){ //getter
         return name;
     }
 
-    public void setAge(int a){
+/* 
+    public void setAge(int a){ 
         age = a;
+        //age is an instance variable, a is a local variable
+    }
+     */
+
+    public void setAge(int age){ //setter
+        this.age = age;
+        /*
+        Using age = age will result in the local variable, age assigning a value to itself. That is zero (0)
+        "This" is a keyword which represents the current object which is calling the method.
+        The "this" keyword is used to tell the compiler the variable we are referring to.
+         */
     }
 
-    public int getAge(){
+    public int getAge(){ //getter
         return age;
     }
 }
