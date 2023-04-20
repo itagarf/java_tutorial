@@ -12,13 +12,18 @@ class Person{
         This constructor is commented out although the comment in the main method points to this.
     */
 
-    public Person(){
+    public Person(){ //default constructor
         age = 23;
         name = "Mike"; // When the main method is called, this results in Mike : 23
 
         /* An important aspect of constructors is: 
         When an application is trying to connect to a database or a network, the connection can be written in the constructor.
          */
+    }
+
+    public Person(String n, int a){ //parameterized constructor
+        name = n;
+        age = a;
     }
 
     public void setName(String n){
@@ -42,7 +47,9 @@ public class constructorr {
     public static void main(String args[]){
 
         Person man = new Person();
+        Person woman = new Person("May", 22);
         System.out.println(man.getName() + " : " + man.getAge());
+        System.out.println(woman.getName() + " : " + woman.getAge());
         /* The output is:
          * In Constructor
            null : 0
