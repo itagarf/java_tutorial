@@ -53,7 +53,13 @@ class Second extends First{
         super(s); // A value is passed here because the default constructor of the superclass will be called if no value is passed.
         System.out.println("In the Second parameterized Constructor");
     }
+
+    public Second(int s, int a){
+        this(); // The use of "this" keyword in the constructor
+        System.out.println("In the Second parameterized Constructor in float");
+    }
 }
+
 public class this_super {
     public static void main(String args[]){
         Second s = new Second();
@@ -70,5 +76,17 @@ public class this_super {
           * In the Second parameterized Constructor
           This is because the parameterized constructor of the superclass is called instead of the default constructor.
           */
+
+
+          //Now, we want to get the call the default constructor of First and both constructors of Second.
+          /* We will use the keyword "this" to execute the constructor of the same class 
+             while the "super" keyword is used to execute the constructor of superclass.
+          */
+         Second s2 = new Second(5, 7);
+        /*  The output of this is:
+         *  In the First Constructor
+            In the Second Constructor
+            In the Second parameterized Constructor in float
+        */
     }
 }
